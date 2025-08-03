@@ -10,9 +10,22 @@
 		023D7D432E3CF28E00F0753F /* WhisperLAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhisperLAN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		023D7E1F2E3D112600F0753F /* Exceptions for "WhisperLAN" folder in "WhisperLAN" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 023D7D422E3CF28E00F0753F /* WhisperLAN */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		023D7D452E3CF28E00F0753F /* WhisperLAN */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				023D7E1F2E3D112600F0753F /* Exceptions for "WhisperLAN" folder in "WhisperLAN" target */,
+			);
 			path = WhisperLAN;
 			sourceTree = "<group>";
 		};
@@ -256,9 +269,15 @@
 				DEVELOPMENT_TEAM = R3FP5P5T5M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhisperLAN/Info.plist;
+				INFOPLIST_KEY_NSBonjourServices = "_whisperlan._tcp _whisperlan._udp";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "WhisperLAN uses local network connectivity to discover and communicate with nearby devices for peer-to-peer voice messaging.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "WhisperLAN needs access to your microphone to record voice messages for peer-to-peer communication.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIBackgroundModes = "audio voip external-accessory";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "microphone bluetooth";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -284,9 +303,15 @@
 				DEVELOPMENT_TEAM = R3FP5P5T5M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhisperLAN/Info.plist;
+				INFOPLIST_KEY_NSBonjourServices = "_whisperlan._tcp _whisperlan._udp";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "WhisperLAN uses local network connectivity to discover and communicate with nearby devices for peer-to-peer voice messaging.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "WhisperLAN needs access to your microphone to record voice messages for peer-to-peer communication.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIBackgroundModes = "audio voip external-accessory";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "microphone bluetooth";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

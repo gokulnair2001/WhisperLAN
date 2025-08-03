@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_whisperlan._tcp</string>
+		<string>_whisperlan._udp</string>
+	</array>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>WhisperLAN uses local network connectivity to discover and communicate with nearby devices for peer-to-peer voice messaging.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>WhisperLAN needs access to your microphone to record voice messages for peer-to-peer communication.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>voip</string>
+		<string>external-accessory</string>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>microphone</string>
+		<string>bluetooth</string>
+	</array>
+</dict>
+</plist>
