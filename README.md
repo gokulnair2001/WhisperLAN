@@ -28,39 +28,6 @@ A secure, offline-first voice messaging app for iOS that enables direct communic
 - **No Key Storage**: Ephemeral keys generated per session
 - **Secure Transmission**: All data encrypted before transmission
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- iOS 15.0+
-- Xcode 14.0+
-- Physical iOS device (MultipeerConnectivity doesn't work in simulator)
-- Bluetooth and Wi-Fi enabled
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/WhisperLAN.git
-cd WhisperLAN
-```
-
-2. Open the project in Xcode:
-```bash
-open WhisperLAN.xcodeproj
-```
-
-3. Select your target device (not simulator)
-
-4. Build and run the project (⌘+R)
-
-### Permissions
-
-The app will request the following permissions:
-- **Microphone**: For voice recording
-- **Local Network**: For peer discovery
-- **Bluetooth**: For nearby device discovery
-
 ## 📖 Usage Guide
 
 ### Discovering Peers
@@ -124,33 +91,5 @@ The app will request the following permissions:
 - **Range**: Limited by Bluetooth/Wi-Fi range
 - **Background**: Audio recording may be interrupted when app is backgrounded
 - **Device Count**: Maximum 8 peers per session (MultipeerConnectivity limit)
-
-## 🔮 Future Enhancements
-
-- [ ] Push-to-talk walkie-talkie mode
-- [ ] Group chat functionality
-- [ ] Message persistence with Core Data
-- [ ] Audio compression improvements (Opus codec)
-- [ ] Cross-platform Android version
-- [ ] QR code manual pairing
-- [ ] Offline message queuing
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📞 Support
-
-For support, please open an issue on GitHub or contact the development team.
-
----
 
 **Note**: This app is designed for educational and personal use. Always respect privacy and local regulations when using peer-to-peer communication tools. 
